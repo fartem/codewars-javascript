@@ -1,4 +1,5 @@
 const expect = require('chai').expect
+
 const range = require('../../src/kyu8/whatisbetween').range
 
 expect(range(1, 4)).to.have.all.members([1, 2, 3, 4])

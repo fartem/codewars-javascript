@@ -1,4 +1,5 @@
 const equal = require('chai').assert.equal
+
 const sum = require('../../src/kyu8/sumarrays').sum
 
 equal(sum([]), 0)
