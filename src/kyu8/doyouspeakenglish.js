@@ -3,7 +3,7 @@
  */
 
 function speakEnglish (sentence) {
-  return sentence.toLowerCase().includes('english')
+  return /english/i.test(sentence)
 }
 
 module.exports = {
