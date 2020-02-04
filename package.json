@@ -1,6 +1,6 @@
 {
   "name": "codewars-javascript",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Some katas from codewars.com on JavaScript",
   "main": "index.js",
   "scripts": {
