@@ -3,10 +3,7 @@
  */
 
 function removeDuplicates (strings) {
-  strings.forEach(function (string, index, array) {
-    array[index] = string.replace(/(.)\1+/g, '$1')
-  })
-  return strings
+  return strings.map(s => s.replace(/(.)\1+/g, '$1'))
 }
 
 module.exports = {
