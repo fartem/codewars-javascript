@@ -4,12 +4,7 @@
 
 function repeatIt (string, count) {
   if (typeof (string) === 'string' || string instanceof String) {
-    let result = ''
-    while (count > 0) {
-      result += string
-      count--
-    }
-    return result
+    return string.repeat(count)
   } else {
     return 'Not a string'
   }
