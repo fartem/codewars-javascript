@@ -3,7 +3,7 @@ function solution (root) {
   if (root == null) {
     return 0
   }
-  return root.value + sumTheTreeValues(root.left) + sumTheTreeValues(root.right)
+  return root.value + solution(root.left) + solution(root.right)
 }
 
 module.exports = {
