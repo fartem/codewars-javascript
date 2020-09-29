@@ -1,8 +1,5 @@
-/*
- * https://www.codewars.com/kata/5a329fc9b6cfd7e8320000c9
- */
-
-function formatDataValue (data) {
+// https://www.codewars.com/kata/5a329fc9b6cfd7e8320000c9
+function solution (data) {
   let result = ''
   const tbs = data >= 1000000 ? Math.trunc(data / 1000000) : 0
   if (tbs > 0) {
@@ -22,5 +19,5 @@ function formatDataValue (data) {
 }
 
 module.exports = {
-  formatDataValue
+  solution
 }

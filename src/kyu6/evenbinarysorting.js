@@ -1,7 +1,4 @@
-/*
- * https://www.codewars.com/kata/582bbdbcc190132e3e0001f3
- */
-
+// https://www.codewars.com/kata/582bbdbcc190132e3e0001f3
 function evenBinary (string) {
   const array = string.split(' ')
   const indices = []

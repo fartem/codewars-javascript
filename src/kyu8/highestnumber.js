@@ -1,8 +1,5 @@
-/*
- * https://www.codewars.com/kata/595fdfe5ada6db9061000036
- */
-
-function highestNumber (array) {
+// https://www.codewars.com/kata/595fdfe5ada6db9061000036
+function solution (array) {
   if (array.length === 0) {
     throw new Error('Array is empty!')
   }
@@ -10,5 +7,5 @@ function highestNumber (array) {
 }
 
 module.exports = {
-  highestNumber
+  solution
 }

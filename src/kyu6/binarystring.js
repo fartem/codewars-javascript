@@ -1,8 +1,5 @@
-/*
- * https://www.codewars.com/kata/52654ea8e218b83553000666
- */
-
-function toBinaryString (number) {
+// https://www.codewars.com/kata/52654ea8e218b83553000666
+function solution (number) {
   const result = []
   do {
     result.unshift(Math.floor(number % 2))
@@ -12,5 +9,5 @@ function toBinaryString (number) {
 }
 
 module.exports = {
-  toBinaryString
+  solution
 }

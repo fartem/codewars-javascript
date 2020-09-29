@@ -1,7 +1,7 @@
 const isTrue = require('chai').assert.isTrue
 const isNotTrue = require('chai').assert.isNotTrue
 
-const compare = require('../../src/kyu6/binarytreecompare').compare
+const solution = require('../../src/kyu6/binarytreecompare').solution
 
 var firstTree = {
   val: 1,
@@ -20,13 +20,13 @@ var thirdTree = {
 }
 
 isTrue(
-  compare(
+  solution(
     firstTree,
     secondTree
   )
 )
 isNotTrue(
-  compare(
+  solution(
     firstTree,
     thirdTree
   )

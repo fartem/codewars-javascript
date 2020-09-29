@@ -1,6 +1,6 @@
 const equal = require('chai').assert.equal
 
-const sumTheTreeValues = require('../../src/kyu6/sumthetree').sumTheTreeValues
+const solution = require('../../src/kyu6/sumthetree').solution
 
 var simpleNode = {
   value: 10,
@@ -16,7 +16,7 @@ var simpleNode = {
   }
 }
 equal(
-  sumTheTreeValues(simpleNode),
+  solution(simpleNode),
   13
 )
 
@@ -38,6 +38,6 @@ var unbalancedNode = {
   }
 }
 equal(
-  sumTheTreeValues(unbalancedNode),
+  solution(unbalancedNode),
   12
 )

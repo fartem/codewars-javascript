@@ -1,11 +1,7 @@
-/*
- *
- */
-
-function wordSearch (word, text) {
+function solution (word, text) {
   return new RegExp(`\\b${word}\\b`).test(text)
 }
 
 module.exports = {
-  wordSearch
+  solution
 }

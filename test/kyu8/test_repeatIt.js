@@ -1,12 +1,12 @@
 const equal = require('chai').assert.equal
 
-const repeatIt = require('../../src/kyu8/repeatIt').repeatIt
+const solution = require('../../src/kyu8/repeatIt').solution
 
 equal(
-  repeatIt('*', 3),
+  solution('*', 3),
   '***'
 )
 equal(
-  repeatIt('Hello', 11),
+  solution('Hello', 11),
   'HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHello'
 )

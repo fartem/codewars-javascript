@@ -1,8 +1,5 @@
-/*
- * https://www.codewars.com/kata/5800580f8f7ddaea13000025
- */
-
-function sumTheTreeValues (root) {
+// https://www.codewars.com/kata/5800580f8f7ddaea13000025
+function solution (root) {
   if (root == null) {
     return 0
   }
@@ -10,5 +7,5 @@ function sumTheTreeValues (root) {
 }
 
 module.exports = {
-  sumTheTreeValues
+  solution
 }
