@@ -1,5 +1,5 @@
 // https://www.codewars.com/kata/582bbdbcc190132e3e0001f3
-function evenBinary (string) {
+function solution (string) {
   const array = string.split(' ')
   const indices = []
   array.filter((value, index) => {
@@ -13,5 +13,5 @@ function evenBinary (string) {
 }
 
 module.exports = {
-  evenBinary
+  solution
 }
