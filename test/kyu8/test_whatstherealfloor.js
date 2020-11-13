@@ -1,6 +1,6 @@
 const equal = require('chai').assert.equal
 
-const solution = require('../../src/kyu8/realfloor').solution
+const solution = require('../../src/kyu8/whatstherealfloor').solution
 
 equal(
   solution(1),

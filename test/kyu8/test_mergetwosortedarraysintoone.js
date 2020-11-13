@@ -1,6 +1,6 @@
 const expect = require('chai').expect
 
-const solution = require('../../src/kyu8/mergetwosortedarrays').solution
+const solution = require('../../src/kyu8/mergetwosortedarraysintoone').solution
 
 expect(
   solution([1, 2, 3, 4], [5, 6, 7, 8])

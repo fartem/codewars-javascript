@@ -1,6 +1,6 @@
 const expect = require('chai').expect
 
-const solution = require('../../src/kyu6/stringarrayrevisal').solution
+const solution = require('../../src/kyu6/stringarrayduplicates').solution
 
 expect(
   solution(['ccooddddddewwwaaaaarrrrsssss', 'piccaninny', 'hubbubbubboo'])

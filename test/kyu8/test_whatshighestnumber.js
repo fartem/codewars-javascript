@@ -1,6 +1,6 @@
 const equal = require('chai').assert.equal
 
-const solution = require('../../src/kyu8/highestnumber').solution
+const solution = require('../../src/kyu8/whatshighestnumber').solution
 
 equal(
   solution([12, 4, 6, 0]),
