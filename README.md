@@ -36,7 +36,7 @@ Profile on Codewars: [fartem](https://www.codewars.com/users/fartem).
 | Russian postal code checker | [Link](https://www.codewars.com/kata/552e45cc30b0dbd01100001a) | [Link](./src/kyu7/russianpostalcodechecker.js) |
 | String Matcher | [Link](https://www.codewars.com/kata/565ce4ab24ef4aee6a000074) | [Link](./src/kyu7/stringmatcher.js) |
 | Swap two numbers | [Link](https://www.codewars.com/kata/586ed14c35396d912100049a) | [Link](./src/kyu7/swaptwonumbers.js) |
-| Unique numbers | [Link](https://www.codewars.com/kata/568f9bd9cbe89334c900000c() | [Link](./src/kyu7/uniquenumbers.js) |
+| Unique numbers | [Link](https://www.codewars.com/kata/568f9bd9cbe89334c900000c) | [Link](./src/kyu7/uniquenumbers.js) |
 | Word Search | - | [Link](./src/kyu7/wordsearch.js) |
 
 ### 6 kyu
